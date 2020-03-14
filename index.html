@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivial Game, MAN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Bitter|IBM+Plex+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Coffee Trivia!</h1>
+    </div>
+    <div class="landing">
+        <p class="landing">Wanna hear a joke? Decaf.</p>
+        <button id="startBtn" class="landing">Start Game!</button>
+        <p class="landing">(But first, coffee.)</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 questions">
+                <p class="q1">Select the coffee drink that contains the following: .5 part milk foam, 1 part steamed half and half, 1 part espresso.</p>
+                <input type="radio" class="correct" name="ans1A" value="cafe-breve">
+                <label for="ans1A">Cafe Breve</label>
+                <input type="radio" class="incorrect" name="ans1B" value="macchiato">
+                <label for="ans1B">Macchiato</label>
+                <input type="radio" class="incorrect" name="ans1C" value="cafe-au-lait">
+                <label for="ans1C">Cafe au lait</label>
+
+                <p class="q2">What country produces the most coffee beans?</p>
+                <input type="radio" class="incorrect" name="ans2A" value="columbia">
+                <label for="ans2A">Columbia</label>
+                <input type="radio" class="correct" name="ans2B" value="brazil">
+                <label for="ans2B">Brazil</label>
+                <input type="radio" class="incorrect" name="ans2C" value="france">
+                <label for="ans2C">France</label>
+
+                <p class="q3">What dessert is ice cream with espresso poured over it?</p>
+                <input type="radio" class="correct" name="ans3A" value="affogato">
+                <label for="ans3A">Affogato</label>
+                <input type="radio" class="incorrect" name="ans3B" value="vienna-coffee">
+                <label for="ans3B">The Vienna Coffee</label>
+                <input type="radio" class="incorrect" name="ans3C" value="cafe-con-hielo">
+                <label for="ans3C">Cafe con hielo</label>
+
+                <p class="q4">What country is the "eiskaffe" from?</p>
+                <input type="radio" class="incorrect" name="ans4A" value="iceland">
+                <label for="ans4A">Iceland</label>
+                <input type="radio" class="incorrect" name="ans4B" value="norway">
+                <label for="ans4B">Norway</label>
+                <input type="radio" class="correct" name="ans4C" value="germany">
+                <label for="ans4C">Germany</label>
+
+                <p class="q5">What ingredient is included in an Italian restretto?</p>
+                <input type="radio" class="incorrect" name="ans5A" value="milk">
+                <label for="ans5A">Milk</label>
+                <input type="radio" class="incorrect" name="ans5B" value="cocoa">
+                <label for="ans5B">Cocoa</label>
+                <input type="radio" class="correct" name="ans5C" value="espresso">
+                <label for="ans5C">Espresso</label>
+
+            </div>
+
+        </div>
+        <div class="row">
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--Bootstrap and jQuery stuff-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
