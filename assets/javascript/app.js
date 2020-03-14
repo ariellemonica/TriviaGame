@@ -35,6 +35,11 @@ $(".correct").on('click', function () {
 
 })
 
+$(".incorrect").on('click', function () {
+    counterIncorrect++;
+
+})
+
 //questions and answers array - if you want :)
 
 //time runs out - stop running 
