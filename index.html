@@ -17,15 +17,20 @@
     <div>
         <h1>Coffee Trivia!</h1>
     </div>
-    <div class="landing">
+    <div id="landing">
         <p class="landing">Wanna hear a joke? Decaf.</p>
         <button id="startBtn" class="landing">Start Game!</button>
         <p class="landing">(But first, coffee.)</p>
     </div>
-
+    <div>
+        <h2 id="timer">00:00</h2>
+    </div>
+    <div id="resultsDiv">
+        
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 questions">
+            <div id="questionsDiv" class="col-md-12 questions">
                 <p class="q1">Select the coffee drink that contains the following: .5 part milk foam, 1 part steamed half and half, 1 part espresso.</p>
                 <input type="radio" class="correct" name="ans1A" value="cafe-breve">
                 <label for="ans1A">Cafe Breve</label>
@@ -113,6 +118,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
