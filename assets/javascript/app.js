@@ -7,7 +7,7 @@ var interval = 1000;
 var timer
 var counterCorrect = 0;
 var counterIncorrect = 0;
-var timerCount = 15;
+var timerCount = 60;
 var totalQuestNum = 10;
 
 $("#startBtn").on('click', function (event) {
